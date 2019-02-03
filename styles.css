@@ -1,0 +1,93 @@
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+}
+h2  {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: bold;
+}
+.flex-container {
+    display: flex;
+    height: auto;
+}
+.flex-container-1{
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+.flex-container-2{
+    border-bottom: 3px solid #000;
+}
+.ai-stretch{
+    align-items: stretch;
+    height: auto;
+}
+.border-left-right{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.box-1 {
+    width: 320px;
+    padding: 10px;
+    flex: 0 0 auto;
+}
+.box-2 {
+    color: black;
+    width: 50%;
+    padding: 10px;
+}
+.box-3 {
+    color: black;
+    width: 25%;
+    padding: 10px;  
+}
+.box-4 {
+    color: black;
+    width: 320px;  
+    padding: 10px;
+    flex: 0 0 auto;
+} 
+.box-5 {
+    color: black;
+    width: 75%;  
+    font-family: Arial;
+    font-size: 30px;
+    border-right: 1px solid #000;
+} 
+.nav-bar {
+    flex-direction: column;
+    display: flex;
+}
+.flex-container-nav-bar > div {
+    font-weight: bold;
+}
+.flex-container-nav-bar > div:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav-p {
+    background-color: rgb(190, 187, 0);
+    padding: 20px;
+}
+.nav-t {
+    background-color: turquoise;
+    padding: 20px;
+}
+.nav-l {
+    background-color: rgb(7, 197, 108);
+    padding: 20px;
+}
+.nav-o {
+    background-color: blue;
+    padding: 20px;
+}
+.nav-s {
+    background-color: rgb(68, 0, 255);
+    padding: 20px;
+}
+img.displayed {
+    width: 100%
+}
